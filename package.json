@@ -35,7 +35,8 @@
         "classnames": "^2.2.6",
         "normalize.css": "^8.0.1",
         "react": "^17.0.1",
-        "react-dom": "^17.0.1"
+        "react-dom": "^17.0.1",
+        "react-router-dom": "^5.2.0"
     },
     "devDependencies": {
         "@babel/core": "~7.12.3",
@@ -52,6 +53,7 @@
         "@pmmmwh/react-refresh-webpack-plugin": "~0.4.2",
         "@svgr/webpack": "~5.4.0",
         "@teamsupercell/typings-for-css-modules-loader": "~2.4.0",
+        "@types/react-router-dom": "^5.1.7",
         "@typescript-eslint/eslint-plugin": "~4.7.0",
         "@typescript-eslint/parser": "~4.7.0",
         "autoprefixer": "~10.0.1",
