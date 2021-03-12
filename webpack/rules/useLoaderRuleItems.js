@@ -64,19 +64,6 @@ export const miniCssExtractLoader = isProd
       };
 
 /**
- * @see https://webpack.js.org/loaders/less-loader/#root
- */
-export const lessLoader = {
-    loader: 'less-loader',
-    options: {
-        sourceMap: true,
-        lessOptions: {
-            javascriptEnabled: true,
-        },
-    },
-};
-
-/**
  * Using to convert CSS modules from css-loader to TypeScript typings
  * @see https://github.com/TeamSupercell/typings-for-css-modules-loader
  */
